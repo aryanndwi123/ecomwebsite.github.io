@@ -1,0 +1,612 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.topbar{
+   
+
+    height: 80px;
+    width: 100%;
+    float: left;
+    
+    
+    background-color: black;
+    font-family: 'Rubik', Courier, monospace;
+}
+.toptool{
+    height: 30px;
+    background-color: rgb(89, 208, 161);
+    float: left;
+    width: 100%;
+    font-family: 'Rubik', Courier, monospace;
+    
+}
+
+
+.qtool{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: large;
+}
+
+.qtool:hover{
+
+    text-shadow:
+      0 0 7px #15fcd5,      
+      0 0 102px #963232,
+      0 0 151px #242424;
+
+}
+    
+    
+
+
+.qtop{
+    color: white;
+    margin-top: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+    padding-left: 0.4%;
+    padding-right: 0.4%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    
+    text-decoration: none;
+    float: left;
+}
+
+.qtop:hover{
+    border: 1px solid #C0C0C0;
+
+}
+
+.qtop:focus{
+    border: 1px solid #FFD700;
+   
+}
+.qtop:active{
+    border: 1px solid #C0C0C0;
+
+}
+
+
+
+
+.totbox{
+    max-width: 1200px;
+    height: 120px;
+    
+    
+    
+    
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+     
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo1{
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    border-radius: 30px;
+    border: 1px solid #FFD700;
+
+    
+    
+}
+.logo1:hover{
+    transform: scale(1.01);
+    -webkit-transition: 00.5s;
+    transition: 0.5s;
+    border: 0.5px solid #00ff84;
+    box-shadow:
+      0 0 7px rgb(30, 227, 145),      
+      0 0 102px rgb(34, 134, 234),
+      0 0 151px rgb(2, 91, 255);
+}
+.qtop1{
+    float: left;
+    margin: 15px;
+}
+
+
+.footer{
+    position: fixed;
+    padding: 10px 10px 10px 10px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 10px;
+    background: rgba(61, 61, 61, 0.6);
+    font-size: 10px;
+}
+
+
+.boxes1{
+
+    
+    height: 1000px;
+    width: 70%;
+    float: left;
+    
+    
+    margin: 1%;
+    margin-bottom: 5%;
+}
+.boxcol1{
+    height: 28%;
+    width: 92%;
+    margin: 1%;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: rgb(219, 219, 219);
+    float: left;
+    border-color: black;
+    border: 2px;
+    font-family: 'Rubik', Courier, monospace;
+
+}
+.boxcol2{
+    height: 28%;
+    width: 92%;
+    margin: 1%;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: rgb(219, 219, 219);
+    float: left;
+    border-color: black;
+    border: 2px;
+    font-family: 'Rubik', Courier, monospace;
+
+
+}
+.boxcol3{
+    height: 28%;
+    width: 92%;
+    margin: 1%;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: rgb(219, 219, 219);
+    float: left;
+    border-color: black;
+    border: 2px;
+    font-family: 'Rubik', Courier, monospace;
+
+}
+
+.fare_box{
+    width: 900px;
+    margin-left: 20%;
+}
+
+.textcol{
+    font-size: 30px;
+}
+
+
+.box{
+    height: 83%;
+    width: 30.3%;
+    border-radius: 10px ;
+    border: 3px solid rgb(235, 235, 255);
+
+    box-shadow:
+      0 0 10px rgb(46, 46, 46);    
+      
+
+    font-family: 'Rubik', Courier, monospace;
+    
+       
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    float: left;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
+}
+.box:hover{
+    transform: scale(1.1);
+    border: 3px solid rgb(36, 57, 50);
+    box-shadow:
+      0 0 7px rgb(192, 192, 192),      
+      0 0 30px rgb(125, 125, 124),
+      0 0 40px rgb(70, 69, 69);
+}
+
+.photo_pdt{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+     
+}
+.photo_product{
+    height: 200px;
+    width: 200px;
+}
+.total_price{
+    height: 20px;
+    width: 100px;
+  
+    margin-top: 10px;
+    margin-left: 4%;
+    float: left;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+.bid{
+    height: 20px;
+    width: 70px;
+    background-color: rgb(26, 193, 26);
+    float: left;
+    margin-top: 10px;
+    margin-left: 4%;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.bid:hover{
+    transform: scale(1.05);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.add_to_cart{
+    height: 20px;
+    width: 30px;
+    background-color: white ;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5%;
+    text-align: center;
+    color: green;
+
+}
+
+
+.boxes2_img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+    
+}
+
+
+.content_box{
+    float: left;
+    height: 90%;
+    width: 20%;
+    margin: 10px;
+}
+
+.fa-cart-shopping-fast{
+    color: aqua;
+    height: 10px;
+    width: 10px;
+}
+
+.box1{
+    height: 31.3%;
+    border-radius: 10px;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+    
+    
+    
+    
+    -webkit-transition: 0.5s;
+    transition: 00.5s;
+
+    box-shadow:
+      
+      0 0 10px rgb(70, 69, 69);
+}
+    
+
+
+.box1:hover{
+    
+    transform: scale(1.1);
+    border: 3px solid rgb(36, 57, 50);
+    box-shadow:
+      0 0 7px rgb(192, 192, 192),      
+      0 0 30px rgb(125, 125, 124),
+      0 0 40px rgb(70, 69, 69);
+}
+
+.boxes2{
+    float: left;
+    
+    height: 700px;
+    width: 26%;
+    margin: 1%;
+    font-family: 'Rubik', Courier, monospace;
+     
+
+}
+
+.poster{
+    width: 100%;
+}
+.slider{
+    height: 300px;
+    width: 100%;
+    background-color: #d3fff9;
+    float: left;
+}
+
+.total_price1{
+    text-align: center;
+    height: 10%;
+    margin-top: 30px;
+}
+.bid1{
+    text-align: center;
+    height: 10%;
+    margin-top: 30px;
+    background-color: rgb(26, 193, 26);
+    color: azure;
+    border-radius: 10px;
+
+}
+.add_to_cart1{
+    text-align: center;
+    height: 10%;
+    margin-top: 30px;
+    
+}
+
+.search_menu{
+    height: 100%;
+    width: 70%;
+    
+    
+    
+    float: left;
+
+}
+.topsearch{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+
+.menu_open{
+    
+    width: 70%;
+    height: 0px;
+    background-color: #00ff84;
+    position: absolute;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(181, 181, 181);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: large;
+    border-radius: 5px;
+  }
+
+input:hover {
+    
+    border: 3px solid rgb(72, 72, 72);
+}
+
+.pdt_main_content{
+    float: left;
+    width: 100%;
+   
+    
+}  
+
+
+
+.pdt_detail{
+    float: left;
+    height: 500px;
+}
+
+.pdt_detail>h1{
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.price1{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+}
+.pdt_detail>h4{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.description_pdt{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(57, 57, 57);
+}
+
+
+.image_of_pdt_all{
+    height: 500px;
+    width: 500px;
+    float: left;
+    
+}
+
+.description_pdt{
+    height: 30px;
+    width: 400px;
+}
+
+.name_user_portfolio{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Rubik', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.acc_bal_user_portfolio{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #af1d1d;
+    font-family: 'Rubik', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.transaction_heading{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #701515;
+    font-family: 'Rubik', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.transaction_user_profit{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #0da000;
+    font-family: 'Rubik', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(207, 207, 207);
+    width: 200px;
+    margin-left: 40%;
+    
+}
+
+.transaction_user_loss{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #a00000;
+    font-family: 'Rubik', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(207, 207, 207);
+    width: 200px;
+    margin-left: 40%;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+   
+
+    .poster{
+        width: 1200px;
+    }
+    .slider, .boxes1  {
+      width: 100%;
+    }
+    .boxes2{
+        width: 50%;
+        margin-left: 10%;
+    }
+    .topbar{
+        
+        width: 1200px;
+    }
+    .toptool{
+        width: 1200px;
+    }
+    .content_box{
+        margin-left: 50px;
+    }
+    .menu_open{
+        width: 840px;
+
+    }
+    .pdt_main_content{
+        width: 1200px;
+    }
+    .sign_in_box{
+        width: 900px;
+    }
+    .pdt_detail{
+        width: 300px;
+    }
+    
+     
+  }
+
+
+
+  @media only screen and (max-width: 900px) {
+
+
+    .poster{
+        width: 920px;
+    }
+    .menu_open{
+        width: 645px;
+
+    }
+    .sign_in_box{
+        width: 900px;
+    }
+    
+    
+    .topbar{
+        
+        width: 920px;
+    }
+    .toptool{
+        width: 920px;
+    }
+    
+    .boxes1{
+        width: 900px;
+    }
+    .boxes2{
+        width: 500px;
+    }
+    .pdt_main_content{
+        float: left;
+        width: 900px;
+    }  
+  }
+
